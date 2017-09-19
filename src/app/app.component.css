@@ -1,13 +1,23 @@
 .button{
     margin-bottom: 0px;
+
     padding-top:50px;
     padding-bottom: 50px;
     width:100px;
+
+    padding-top:100px;
+    padding-bottom: 100px;
+    width:200px;
+
     background-color: black;
 }
 .col-lg-4 {
 width: 10px;
+
 padding-right:85px;
+
+padding-right:185px;
+
 
 }
 span{
@@ -15,6 +25,7 @@ span{
 }
 #score{
     text-align: center;
+
 }
 #start{
     margin-left: 100px;
@@ -22,3 +33,5 @@ span{
 #quad{
     text-align: center;
 }
+
+

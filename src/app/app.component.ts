@@ -15,6 +15,7 @@ export class AppComponent {
   count:number=0;
   
   temp:any;
+
   DropdownVar = 0;
   
   onSelect(x){
@@ -23,6 +24,10 @@ export class AppComponent {
   }
 
   rand(number:any):any{
+
+
+  func(number:any):any{
+
   console.log(number);
   this.state='state'+number;
   this.id=number;
@@ -38,6 +43,7 @@ export class AppComponent {
     this.count +=1;
 
 
+
     this.state='but1';
     var property=document.getElementById(this.state);
     property.style.background="black";
@@ -51,6 +57,21 @@ export class AppComponent {
     var property=document.getElementById(this.state);
     property.style.background="black";
     this.state='but'+this.random;
+
+    this.state='b1';
+    var property=document.getElementById(this.state);
+    property.style.background="black";
+    this.state='b2';
+    var property=document.getElementById(this.state);
+    property.style.background="black";
+    this.state='b3';
+    var property=document.getElementById(this.state);
+    property.style.background="black";
+    this.state='b4';
+    var property=document.getElementById(this.state);
+    property.style.background="black";
+    this.state='b'+this.random;
+
     var property=document.getElementById(this.state);
     property.style.background="white";
     console.log(this.count);

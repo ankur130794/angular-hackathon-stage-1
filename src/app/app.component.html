@@ -1,3 +1,4 @@
+
 <div class="row"><button class="btn btn-primary" (click)="DropdownVar=2" id="start"> start</button></div>
     <div class="container" *ngIf="DropdownVar === 2">
         <div class="row" id="quad">
@@ -6,20 +7,41 @@
             </div>
             <div class="col-lg-4">
                 <button (click)="rand(2); change('but2',2);" class="button  btn btn-default" id="but2"></button>
+
+<button class="btn btn-primary" click="myFunction()"> start</button>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+              <button  class="button btn btn-default" (click)="func(1); change('b1',1);"  id ="b1"></button>
+            </div>
+            <div class="col-lg-4">
+                <button (click)="func(2); change('b2',2);" class="button  btn btn-default" id="b2"></button>
+
             </div>
         </div>
        <div class="row">
             <div class="col-lg-4">
+
                 <button (click)="rand(3); change('but3',3);" class="button  btn btn-default" id="but3"></button>
             </div>
             <div class="col-lg-4">
                 <button (click)="rand(4); change('but4',4);" class="button  btn btn-default" id="but4"></button>
+
+                <button (click)="func(3); change('b3',3);" class="button  btn btn-default" id="b3"></button>
+            </div>
+            <div class="col-lg-4">
+                <button (click)="func(4); change('b4',4);" class="button  btn btn-default" id="b4"></button>
+
             </div>
       </div> 
       </div>
   
   
+
       <h2 id="score">Score: {{count}}</h2>
+
+      <h2 id="score">Score: {{count}}</h2>>
+
 
 
   
